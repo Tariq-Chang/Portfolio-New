@@ -28,7 +28,7 @@ const Home = () => {
           <LinkedIn className="cursor-pointer hover:text-primary-yellow" />
         </div>
       </div>
-      <button className="font-medium tracking-wider bg-green-700 py-2 px-2 rounded-sm mt-32 text-sm hover:bg-yellow-900 opacity-[0.8] sm:py-3 px-3 text-lg mx-auto ml-4">
+      <button className="font-medium tracking-wider bg-green-700 py-2 px-2 rounded-sm mt-32 text-sm hover:bg-yellow-900 opacity-[0.8] sm:py-3 sm:px-3 sm:text-lg mx-auto ml-4">
         Get Started
       </button>
     </div>

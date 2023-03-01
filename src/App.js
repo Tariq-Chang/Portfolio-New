@@ -7,11 +7,12 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 import Projects from "./Projects";
 import Services from "./Services";
+import Navbar2 from "./Navbar2";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <Navbar2 />
       <Home />
       <About />
       <Projects />

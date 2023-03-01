@@ -4,7 +4,7 @@ import reactIcon from "./images/react-icon.png";
 import reduxIcon from "./images/redux-icon.png";
 const Services = () => {
   return (
-    <div className="flex flex-col justify-evenly bg-primary-light py-8">
+    <div className="flex flex-col justify-evenly py-8">
       <h1 className="text-center py-4 text-xl tracker-wider font-semibold mb-4 sm:text-2xl md:text-3xl">
         Services
       </h1>
