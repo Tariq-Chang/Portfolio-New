@@ -4,16 +4,16 @@ import CancelIcon from "@material-ui/icons/Cancel";
 import { Facebook, GitHub, LinkedIn } from "@material-ui/icons";
 const Navbar2 = () => {
   let links = [
-    { path: "/", name: "HOME" },
-    { path: "/about", name: "ABOUT" },
-    { path: "/projects", name: "PROJECTS" },
-    { path: "/services", name: "SERVICES" },
-    { path: "contact", name: "CONTACT" },
+    { path: "#home", name: "HOME" },
+    { path: "#about", name: "ABOUT" },
+    { path: "#services", name: "SERVICES" },
+    { path: "#projects", name: "PROJECTS" },
+    { path: "#contact", name: "CONTACT" },
   ];
   let [open, setOpen] = useState(false);
   return (
-    <div className="relative  bg-primary-yellow">
-      <nav className="font-[Poppins] flex max-w-[1200px] justify-between items-center h-12 py-2">
+    <div className="fixed top-0 w-full z-20 bg-primary-yellow">
+      <nav className="font-[Poppins] flex max-w-[1200px] mx-auto justify-between items-center py-4">
         <div className="px-4 cursor-pointer">
           {!open ? (
             <div className=" hover:scale-125 md:hidden">
@@ -26,9 +26,9 @@ const Navbar2 = () => {
           )}
         </div>
         <ul
-          className={`flex flex-col z-10 mt-[3px] absolute left-0 top-12 ${
+          className={`items__container flex flex-col z-10 mt-[3px] absolute left-0 top-12 ${
             open ? "top-12 left-0" : "top-12 left-[-500px]"
-          } bg-primary-yellow transition-all duration-500 ease-in w-40 md:left-0 top-0`}
+          } bg-primary-yellow transition-all duration-500 ease-in w-40 md:flex-row md:bg-transparent md:transition-none md:top-0 md:left-16 md:mt-[0px]`}
         >
           {links.map((link, i) => {
             return (
@@ -36,7 +36,7 @@ const Navbar2 = () => {
                 key={i}
                 className="px-5 py-4 cursor-pointer text-md hover:bg-yellow-400"
               >
-                {link.name}
+                <a href={link.path}>{link.name}</a>
               </li>
             );
           })}

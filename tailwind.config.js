@@ -11,6 +11,7 @@ module.exports = {
         "primary-light": "#FCEAFF",
         "primary-dark": "#101010",
         "secondary-dark": "#151415",
+        "alt-dark": "#202020",
       },
     },
   },

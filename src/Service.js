@@ -2,7 +2,7 @@ import React from "react";
 
 const Service = ({ image, name }) => {
   return (
-    <div className="bg-white py-4 px-4 drop-shadow-lg mx-2 mb-3">
+    <div className="bg-secondary-dark text-white py-4 px-4  mx-2 mb-3">
       <img
         src={image}
         alt="project icons"
