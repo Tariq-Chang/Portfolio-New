@@ -4,15 +4,14 @@ import About from "./About";
 import "./App.css";
 import Contact from "./Contact";
 import Home from "./Home";
-import Navbar from "./Navbar";
 import Projects from "./Projects";
 import Skills from "./Skills";
-import Navbar2 from "./Navbar2";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <div>
-      <Navbar2 />
+      <Navbar />
       <Home />
       <About />
       <Skills />

@@ -25,25 +25,40 @@ const Home = () => {
         />
       </h1>
       <h3 className="px-2 max-w-[470px] mx-auto text-sm tracking-wide sm:text-lg md:text-xl py-2">
-        I am a full stack developer having expertise in <span className="opacity-[1]">React.js, Redux, Typescript, Express, Node.js, MongoDB, mongoose and more.
+        I am a full stack developer having expertise in{" "}
+        <span className="opacity-[1]">
+          React.js, Redux, Typescript, Express, Node.js, MongoDB, mongoose and
+          more.
         </span>
       </h3>
       <div className="mt-4 flex justify-evenly items-center py-4 px-8 max-w-[400px] mx-auto md:hidden">
-        <div className="text-white">
-          <GitHub className="cursor-pointer hover:text-primary-yellow" />
-        </div>
-        <div className="text-white ">
-          <Facebook className="cursor-pointer hover:text-primary-yellow" />
-        </div>
-        <div className="text-white">
-          <LinkedIn className="cursor-pointer hover:text-primary-yellow" />
-        </div>
-      </div>
-        <a href="#contact">
-        <button className="font-medium tracking-wider bg-green-700 py-2 px-2 rounded-sm mt-32 text-sm hover:bg-yellow-900 opacity-[0.8] sm:py-3 sm:px-3 sm:text-lg mx-auto ml-4">
-        Get Started
-        </button>
+        <a
+          href="https://github.com/Tariq-Chang"
+          target="_blank"
+          className="flex justify-center px-4 hover:text-yellow-600 cursor-pointer"
+        >
+          <GitHub />
         </a>
+        <a
+          href="https://www.facebook.com/tariqhussain.chang.395"
+          target="_blank"
+          className="flex justify-center px-4 hover:text-yellow-600 cursor-pointer"
+        >
+          <Facebook />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/tariq-hussain-chang-a6686223b/"
+          target="_blank"
+          className="flex justify-center px-4 hover:text-yellow-600 cursor-pointer"
+        >
+          <LinkedIn />
+        </a>
+      </div>
+      <a href="#contact">
+        <button className="font-medium tracking-wider bg-green-700 py-2 px-2 rounded-sm mt-32 text-sm hover:bg-yellow-900 opacity-[0.8] sm:py-3 sm:px-3 sm:text-lg mx-auto ml-4">
+          Get Started
+        </button>
+      </a>
     </div>
   );
 };
