@@ -24,9 +24,9 @@ const Home = () => {
           className="text-primary-yellow font-semibold tracking-wider drop-shadow-sm text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
         />
       </h1>
-      <h3 className="px-2 opacity-[0.7] max-w-[470px] mx-auto text-sm tracking-wide sm:text-lg md:text-xl py-2">
-        I will be your front end developer with excellent skills in React.js,
-        Redux.
+      <h3 className="px-2 max-w-[470px] mx-auto text-sm tracking-wide sm:text-lg md:text-xl py-2">
+        I am a full stack developer having expertise in <span className="opacity-[1]">React.js, Redux, Typescript, Express, Node.js, MongoDB, mongoose and more.
+        </span>
       </h3>
       <div className="mt-4 flex justify-evenly items-center py-4 px-8 max-w-[400px] mx-auto md:hidden">
         <div className="text-white">
@@ -39,9 +39,11 @@ const Home = () => {
           <LinkedIn className="cursor-pointer hover:text-primary-yellow" />
         </div>
       </div>
-      <button className="font-medium tracking-wider bg-green-700 py-2 px-2 rounded-sm mt-32 text-sm hover:bg-yellow-900 opacity-[0.8] sm:py-3 sm:px-3 sm:text-lg mx-auto ml-4">
+        <a href="#contact">
+        <button className="font-medium tracking-wider bg-green-700 py-2 px-2 rounded-sm mt-32 text-sm hover:bg-yellow-900 opacity-[0.8] sm:py-3 sm:px-3 sm:text-lg mx-auto ml-4">
         Get Started
-      </button>
+        </button>
+        </a>
     </div>
   );
 };

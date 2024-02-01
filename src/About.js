@@ -1,5 +1,4 @@
 import React from "react";
-import profileIcon from "./images/profile-image.png";
 import profileImageCropped from "./images/profile-image-cropped.png";
 const About = () => {
   return (
@@ -19,12 +18,7 @@ const About = () => {
           About
         </h1>
         <h3 className="pt-4 px-4 text-[#333] text-md md:text-lg lg:text-xl">
-          Assalam, Alaikum! I have recently graduated with bachelor's degree in
-          computer science from the shaikh ayaz university shikarpur from
-          2019-2023. I am seeking for the jobs related to React JS. I have been
-          working with React for almost a year and I have done some projects
-          with it which include company allocation app or coding quiz app and
-          more.
+          Assalam, Alaikum! Hello, I'm Tariq Hussain Chang, a full-stack software developer specializing in React.js, JavaScript, Redux, TypeScript, Next.js, and MongoDB. With a passion for crafting seamless web experiences, I bring creativity to front-end design and efficiency to back-end data management. Let's connect and explore the exciting world of web development!
         </h3>
       </div>
     </div>

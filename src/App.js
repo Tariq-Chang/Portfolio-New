@@ -6,7 +6,7 @@ import Contact from "./Contact";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import Projects from "./Projects";
-import Services from "./Services";
+import Skills from "./Skills";
 import Navbar2 from "./Navbar2";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Navbar2 />
       <Home />
       <About />
-      <Services />
+      <Skills />
       <Projects />
       <Contact />
     </div>

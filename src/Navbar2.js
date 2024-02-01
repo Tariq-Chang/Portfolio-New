@@ -6,7 +6,7 @@ const Navbar2 = () => {
   let links = [
     { path: "#home", name: "HOME" },
     { path: "#about", name: "ABOUT" },
-    { path: "#services", name: "SERVICES" },
+    { path: "#skills", name: "SKILLS" },
     { path: "#projects", name: "PROJECTS" },
     { path: "#contact", name: "CONTACT" },
   ];
@@ -42,15 +42,15 @@ const Navbar2 = () => {
           })}
         </ul>
         <div className="hidden  px-4 md:flex justify-center items-center">
-          <div className="flex justify-center px-4 hover:text-yellow-600 cursor-pointer">
+          <a href="https://github.com/Tariq-Chang" target="_blank" className="flex justify-center px-4 hover:text-yellow-600 cursor-pointer">
             <GitHub />
-          </div>
-          <div className="flex justify-center px-4 hover:text-yellow-600 cursor-pointer">
+          </a>
+          <a href="https://www.facebook.com/tariqhussain.chang.395" target="_blank" className="flex justify-center px-4 hover:text-yellow-600 cursor-pointer">
             <Facebook />
-          </div>
-          <div className="flex justify-center px-4 hover:text-yellow-600 cursor-pointer">
+          </a>
+          <a href="https://www.linkedin.com/in/tariq-hussain-chang-a6686223b/" target="_blank" className="flex justify-center px-4 hover:text-yellow-600 cursor-pointer">
             <LinkedIn />
-          </div>
+          </a>
         </div>
       </nav>
     </div>

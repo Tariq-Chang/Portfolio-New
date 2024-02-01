@@ -7,7 +7,7 @@ const Navbar = () => {
     { path: "/", name: "HOME" },
     { path: "/about", name: "ABOUT" },
     { path: "/projects", name: "PROJECTS" },
-    { path: "/services", name: "SERVICES" },
+    { path: "/skills", name: "skills" },
     { path: "contact", name: "CONTACT" },
   ];
   let [open, setOpen] = useState(false);

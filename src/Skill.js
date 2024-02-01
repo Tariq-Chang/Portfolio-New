@@ -1,6 +1,6 @@
 import React from "react";
 
-const Service = ({ image, name }) => {
+const Skill = ({ image, name }) => {
   return (
     <div className="bg-secondary-dark text-white py-4 px-4  mx-2 mb-3">
       <img
@@ -13,4 +13,4 @@ const Service = ({ image, name }) => {
   );
 };
 
-export default Service;
+export default Skill;
